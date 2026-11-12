@@ -104,7 +104,7 @@ fun ShelfScreen(viewModel: ShelfViewModel = viewModel()) {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = { Text("Bokhyllan") },
+                title = { Text("Min bokhylla") },
                 colors = TopAppBarDefaults.topAppBarColors(
                     containerColor = MaterialTheme.colorScheme.primaryContainer
                 )
